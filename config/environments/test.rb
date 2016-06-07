@@ -31,7 +31,7 @@ Rails.application.configure do
   # ActionMailer::Base.deliveries array.
   #更改测试环境主机地址
   config.action_mailer.delivery_method = :test
-  config.action_mailer.default_url_options = {host: 'example.com'}
+  config.action_mailer.default_url_options = { host: 'rails-tutorial-jimmysun.c9users.io' }
 
   # Randomize the order test cases are executed.
   config.active_support.test_order = :random

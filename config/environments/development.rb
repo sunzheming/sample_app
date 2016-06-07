@@ -15,10 +15,10 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   #开发环境中的邮件测试系统
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.delivery_method = :test
-  host = 'example.com'
-  config.action_mailer.default_url_options = { host: host }
+ config.action_mailer.raise_delivery_errors = true
+config.action_mailer.delivery_method = :test
+host = 'rails-tutorial-jimmysun.c9users.io'
+config.action_mailer.default_url_options = { host: host }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
